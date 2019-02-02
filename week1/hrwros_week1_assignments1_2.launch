@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="hrwros_week1" type="sensor_info_publisher.py" name="sensor_value"/>
+  <node pkg="hrwros_week1" type="1_1.py" name="box_height"/>
+  <node pkg="hrwros_week1" type="metres_to_feet_server.py" name="metres_to_feet_server"/>
+  <node pkg="hrwros_week1" type="1_2.py" name="metres_to_feet" output="screen"/>
+</launch>
